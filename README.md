@@ -18,6 +18,8 @@ My favorite engineering problems sit between the product and the platform: **vis
 
 **Design the workflow. Automate the platform. Operate with evidence.**
 
+> Engineering is the art of productive laziness.
+
 ### `02 / selected work`
 
 **[Forginet ↗](https://assil-belhouene-portfolio.vercel.app/projects/forginet)** — *Visual CI/CD, Kubernetes-native execution*
@@ -121,7 +123,3 @@ Arabic · English · French
   <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-cards-mobile.svg">
   <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-cards.svg" width="100%" alt="GitHub activity totals for the past year: contributions, API-visible commits, pull requests and reviews. Includes private contribution aggregates; period and last refresh are printed in the card.">
 </picture>
-
----
-
-> Engineering is the art of productive laziness.
