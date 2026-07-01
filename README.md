@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=soft3">
-  <img src="assets/hero.svg?v=soft3" width="1200" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. Soft mint ASCII portrait converted from my photograph.">
+  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=neofetch1">
+  <img src="assets/hero.svg?v=neofetch1" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. Compact monochrome ASCII portrait beside a neofetch-style engineering summary.">
 </picture>
 
 <p align="center">
