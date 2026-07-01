@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=soft2">
-  <img src="assets/hero.svg?v=soft2" width="1200" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. Green ASCII portrait converted from my photograph.">
+  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=soft3">
+  <img src="assets/hero.svg?v=soft3" width="1200" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. Soft mint ASCII portrait converted from my photograph.">
 </picture>
 
 <p align="center">

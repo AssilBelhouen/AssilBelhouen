@@ -2,7 +2,7 @@
 
 This profile borrows its palette, terminal language, and engineering focus from [my portfolio](https://assil-belhouene-portfolio.vercel.app/).
 
-The portrait is actual ASCII: a head-and-shoulders crop of my photograph, a manually defined silhouette, gentle grayscale contrast adjustment, and luminance-to-character mapping. Soft punctuation replaces heavy symbols; natural light values keep the face brighter than the hair, with muted mint shading and breathing room around the silhouette. Each character has a fixed cell position in the SVG. The plain-text version contains the same characters. No generated illustration or embedded photograph is used.
+The portrait is actual ASCII: a head-and-shoulders crop of my photograph, a manually defined silhouette, softened grayscale contrast, light smoothing, and luminance-to-character mapping. Dot-like punctuation replaces heavy symbols and horizontal strokes; natural light values keep the face brighter than the hair. Muted sage and mint tones, occasional empty cells, and generous margins make the portrait less intense. Each character has a fixed cell position in the SVG. The plain-text version contains the same characters. No generated illustration or embedded photograph is used.
 
 The wide hero uses `#070A08`, `#00FF88`, `#F5FFF8`, and `#859189`. A compact portrait layout is provided through a responsive `<picture>` source; clients that ignore that source receive the wide hero. The surrounding README follows the reader's GitHub theme. The SVGs have no JavaScript, remote fonts, embedded raster images, or external dependencies.
 
