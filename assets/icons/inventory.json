@@ -1,0 +1,116 @@
+{
+  "upstream": "simple-icons/simple-icons",
+  "revision": "955f17f35634cd58de1748204059bce380d379af",
+  "icons": [
+    {
+      "slug": "ansible",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/ansible.svg",
+      "sha256": "dde263ada8ced6d3ce092f9046fba6224eac3afae87274d912cef45210f8fff6"
+    },
+    {
+      "slug": "argo",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/argo.svg",
+      "sha256": "82f01ed1da4aa8f87d0d88bbd6c86c45c051bdd0c513262d48022018dfad8259"
+    },
+    {
+      "slug": "docker",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/docker.svg",
+      "sha256": "65571291c261ef869c31540a38f3ca0f0ee3bb73f179c172211c8860f19a6359"
+    },
+    {
+      "slug": "falco",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/falco.svg",
+      "sha256": "8118b3d810249392901bded169ee2693bda13df1090c13631e4e5ba100f33b5e"
+    },
+    {
+      "slug": "githubactions",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/githubactions.svg",
+      "sha256": "e8b23379b4d89e96731ae354ea9cd3d8ceddf67f411bde39853f215138843777"
+    },
+    {
+      "slug": "go",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/go.svg",
+      "sha256": "36a745fe15584bf138d02ae6abcbdd155bc1cd4f4976634ad34861b2059db559"
+    },
+    {
+      "slug": "grafana",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/grafana.svg",
+      "sha256": "e6da4ab998d25d509e27ce8a1f1afcb2d549907569b6fb1e4065890877cffefa"
+    },
+    {
+      "slug": "helm",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/helm.svg",
+      "sha256": "966f1f065a68819418daf146f4ef1acf20f96c3d33ea9ec8bb92ecdb553dac4e"
+    },
+    {
+      "slug": "jenkins",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/jenkins.svg",
+      "sha256": "95ab5d541710c116d939f44e4e72c8b1503e78d04a1c298ad257c4e26d3a1873"
+    },
+    {
+      "slug": "k6",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/k6.svg",
+      "sha256": "ce58ac3956ced5d2da8ded8d7f3e13d43e7e4c335926db7d4729cf80f2857dc2"
+    },
+    {
+      "slug": "kubernetes",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/kubernetes.svg",
+      "sha256": "ceee2f4e87fa1533600672190c156194039f744fa9b5da10e83f002178e84b47"
+    },
+    {
+      "slug": "nextdotjs",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/nextdotjs.svg",
+      "sha256": "593e14da3ddb65be4c8fa6a178f2f48a01a8bd39ea384f679cd7182b520da502"
+    },
+    {
+      "slug": "postgresql",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/postgresql.svg",
+      "sha256": "c8ccadbd88c9312c2ad3734c4861b31d3485ce179ee91d64793143f83cfa745c"
+    },
+    {
+      "slug": "prometheus",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/prometheus.svg",
+      "sha256": "6dd2480e57936b879f7626b7c71dcd51163da700d8510843516a66316bf8f379"
+    },
+    {
+      "slug": "python",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/python.svg",
+      "sha256": "ad9468e1c4903f73ae7eebfbe980f0f727a10db695be3d914e7d8bd25356a862"
+    },
+    {
+      "slug": "react",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/react.svg",
+      "sha256": "ab9136a1a4a8be72ac6743e1bdd1912d878bd68d57787ea7a6c6838e3b23c01c"
+    },
+    {
+      "slug": "redis",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/redis.svg",
+      "sha256": "428b86deb14c8bdacdcdf75987fe454f367bcd078a7e4ae3f84de29aa5bdf136"
+    },
+    {
+      "slug": "sonarqubeserver",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/sonarqubeserver.svg",
+      "sha256": "c1ac466493a31c1432e04899e8fa5d7468ce4b94aa8c5783b2e0d98b9e06d0e4"
+    },
+    {
+      "slug": "springboot",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/springboot.svg",
+      "sha256": "1b4bb8d7522fa0742a9fc40685b3efe3e089c5d07e4d3eebf4b4dbb28f827ad3"
+    },
+    {
+      "slug": "terraform",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/terraform.svg",
+      "sha256": "9c3737d360a174afec8fa0208332a3991f087ea0b7bacb1eea16598883e1a730"
+    },
+    {
+      "slug": "trivy",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/trivy.svg",
+      "sha256": "bef45d7760bb16e6d3379921220cd31753e8e3fbb6523066b166fcc9c8c8456d"
+    },
+    {
+      "slug": "typescript",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/955f17f35634cd58de1748204059bce380d379af/icons/typescript.svg",
+      "sha256": "7f023e8d1e767370306ec9437d2de5d5af97491d6208dd7799a3808a7c10a36a"
+    }
+  ]
+}
