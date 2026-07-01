@@ -1,6 +1,6 @@
-"""Regenerate the compact terminal profile from a local photograph.
+"""Regenerate the compact terminal profile from the included portrait sketch.
 
-Usage: python tools/generate_art.py --photo /path/to/assil_belhouene.png
+Usage: python tools/generate_art.py
 Requires Pillow 12.3.0; the original photograph is never copied.
 """
 from neofetch_art import main

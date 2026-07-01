@@ -1,0 +1,6 @@
+Built-in OpenAI image_gen tool, October 11, 2026.
+Input: user-supplied photograph of Assil in a white polo in front of ESPRIT.
+
+Use case: style-transfer, identity-preserving portrait. Edit target: the supplied photograph of Assil standing in front of ESPRIT. Create a clean, friendly black-and-white ink portrait of this same person as an intermediate source for conversion to 44-column ASCII art. Preserve recognizable face proportions, short wavy hair, aviator eyeglasses, and white polo collar. Head and upper shoulders only, centered, straight-on. Plain pure white background, remove ALL signage, background objects, logos and text. Square composition with 15% white margins. Use sparse confident black contour strokes, simplified eyes/nose/mouth, white facial planes, small solid black shapes for the hair only; no dense hatching, photorealistic texture, gray shading, deep shadows or dramatic lighting. Warm approachable expression with a subtle closed-mouth smile, recognizable as the subject. This must look like a simple editorial line drawing, clear at a small size, not a spooky photographic halftone or a caricature. No text, no border, no watermark.
+
+The selected output was converted at 52 columns after comparing 44- and 52-column previews.

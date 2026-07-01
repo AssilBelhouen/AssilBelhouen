@@ -1,6 +1,7 @@
 __pycache__/
 .venv/
 *.png
+!assets/portrait-source.png
 *.jpg
 *.jpeg
 previews/

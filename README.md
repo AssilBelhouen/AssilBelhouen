@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=neofetch1">
-  <img src="assets/hero.svg?v=neofetch1" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. Compact monochrome ASCII portrait beside a neofetch-style engineering summary.">
+  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=sketch1">
+  <img src="assets/hero.svg?v=sketch1" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. ASCII line-art portrait with glasses and a polo collar beside a neofetch-style engineering summary.">
 </picture>
 
 <p align="center">
@@ -84,4 +84,4 @@ Have a cloud, DevOps, platform, or full-stack engineering problem to work throug
 
 > Engineering is the art of productive laziness.
 
-<sub>The portrait above is made from ASCII characters, converted from my photograph. [View the plain-text portrait](assets/portrait.txt) · [Artwork notes](ARTWORK.md)</sub>
+<sub>The portrait above is made from ASCII characters, converted from an AI-assisted sketch based on my photograph. [View the plain-text portrait](assets/portrait.txt) · [Artwork notes](ARTWORK.md)</sub>
