@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/086c27c20fca0085ef409f0d39ca5755bfd825af/assets/hero-mobile.svg">
-  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/086c27c20fca0085ef409f0d39ca5755bfd825af/assets/hero.svg" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. ASCII line-art portrait with glasses and a polo collar beside a neofetch-style engineering summary.">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/229b4acca6abd8a5c0e429fcb51dd33d46c75844/assets/hero-mobile.svg">
+  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/229b4acca6abd8a5c0e429fcb51dd33d46c75844/assets/hero.svg" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. Compact monochrome ASCII portrait beside a neofetch-style engineering summary.">
 </picture>
 
 <p align="center">
@@ -84,4 +84,4 @@ Have a cloud, DevOps, platform, or full-stack engineering problem to work throug
 
 > Engineering is the art of productive laziness.
 
-<sub>The portrait above is made from ASCII characters, converted from an AI-assisted sketch based on my photograph. [View the plain-text portrait](assets/portrait.txt) · [Artwork notes](ARTWORK.md)</sub>
+<sub>The portrait above is made from ASCII characters, converted from my photograph. [View the plain-text portrait](assets/portrait.txt) · [Artwork notes](ARTWORK.md)</sub>

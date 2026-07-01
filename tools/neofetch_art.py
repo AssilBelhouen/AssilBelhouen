@@ -7,16 +7,22 @@ from PIL import Image, ImageOps, ImageEnhance, ImageDraw, ImageFont
 ROOT=Path(__file__).resolve().parents[1]
 BG,WHITE,GREEN,MUTED='#0D1410','#DCE6DF','#00FF88','#859189'
 
-def portrait(path,columns=52):
+def portrait(path,columns=44):
     image=ImageOps.fit(Image.open(path).convert('RGB'),(1254,1254))
-    # The generated white-background sketch needs no silhouette extraction.
-    crop=(180,60,1090,1250)
+    mask=Image.new('L',image.size)
+    ImageDraw.Draw(mask).polygon([(440,180),(495,119),(650,106),(741,135),(790,223),
+        (810,385),(831,423),(827,487),(802,520),(775,535),(770,650),(801,717),
+        (912,772),(1070,825),(1190,880),(1254,1090),(1254,1254),(0,1254),
+        (97,907),(234,835),(355,768),(465,695),(477,579),(450,538),(419,522),
+        (400,455),(403,421),(424,406),(409,324),(420,241)],fill=255)
+    crop=(280,90,980,1010)
     rows=round((crop[3]-crop[1])/(crop[2]-crop[0])*columns*.5)
-    gray=ImageEnhance.Contrast(ImageOps.grayscale(image.crop(crop))).enhance(1.15)
+    gray=ImageEnhance.Contrast(ImageOps.grayscale(image.crop(crop))).enhance(1.12)
     gray=gray.resize((columns,rows),Image.Resampling.LANCZOS)
+    mask=mask.crop(crop).resize((columns,rows),Image.Resampling.LANCZOS)
     ramp=' .,:;i!+tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$'
     return [''.join(ramp[min(len(ramp)-1,int((1-gray.getpixel((x,y))/255)*(len(ramp)-1)))]
-        if gray.getpixel((x,y))<246 else ' ' for x in range(columns)) for y in range(rows)]
+        if mask.getpixel((x,y))>150 else ' ' for x in range(columns)) for y in range(rows)]
 
 def text(x,y,value,size=17,color=WHITE,weight='400'):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}">{escape(value)}</text>'
@@ -28,13 +34,12 @@ def base(w,h):
         f'<rect width="{w}" height="{h}" rx="14" fill="{BG}"/>',
         '<g font-family="Consolas, Liberation Mono, monospace">']
 
-def ascii_text(lines,x,y,cell=6.5,line=13,size=12):
+def ascii_text(lines,x,y,cell=8,line=16,size=14):
     return ''.join(text(x+col*cell,y+row*line,char,size) for row,chars in enumerate(lines)
         for col,char in enumerate(chars) if char!=' ')
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--photo',default=str(ROOT/'assets/portrait-source.png'),
-        help='White-background source sketch; defaults to the included generated portrait.')
+    parser=argparse.ArgumentParser(); parser.add_argument('--photo',required=True)
     parser.add_argument('--preview-dir'); args=parser.parse_args()
     lines=portrait(args.photo); assets=ROOT/'assets'; assets.mkdir(exist_ok=True)
     (assets/'portrait.txt').write_text('\n'.join(row.rstrip() for row in lines)+'\n',encoding='ascii')
