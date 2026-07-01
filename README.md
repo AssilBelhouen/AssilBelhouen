@@ -133,8 +133,3 @@ Have a cloud, DevOps, platform, or full-stack engineering problem to work throug
 ---
 
 > Engineering is the art of productive laziness.
-
-<sub>The portrait above is made from ASCII characters, converted from my photograph. [View the plain-text portrait](assets/portrait.txt) · [Artwork notes](ARTWORK.md)</sub>
-
-
-<sub>Profile repository author dates were reconstructed as July 1, 2026; committer dates record actual creation. Automated refreshes use their actual dates.</sub>
