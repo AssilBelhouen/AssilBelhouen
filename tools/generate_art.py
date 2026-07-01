@@ -25,26 +25,28 @@ def portrait(photo, columns=88):
         (409,324),(420,241)], fill=255)
     box = (290, 80, 960, 970)
     rows = round((box[3]-box[1])/(box[2]-box[0])*columns*0.50)
-    gray = ImageEnhance.Contrast(ImageOps.grayscale(image.crop(box))).enhance(1.35)
+    gray = ImageEnhance.Contrast(ImageOps.grayscale(image.crop(box))).enhance(1.05)
     gray = gray.resize((columns, rows), Image.Resampling.LANCZOS)
     silhouette = mask.crop(box).resize((columns, rows), Image.Resampling.LANCZOS)
-    ramp = ' .,:;irsXA253hMHGS#9B&@'
+    # Gentle punctuation and natural light values avoid the negative-film look.
+    ramp = ' .,:;+=ox%'
     lines, tones = [], []
     for y in range(rows):
         chars, colors = [], []
         for x in range(columns):
             darkness = 1-gray.getpixel((x,y))/255
             alpha = silhouette.getpixel((x,y))/255
-            char = ramp[min(len(ramp)-1, int((0.12+darkness*.88)*(len(ramp)-1)))] if alpha>.55 else ' '
+            char = ramp[min(len(ramp)-1, int((0.10+(1-darkness)*.75)*(len(ramp)-1)))] if alpha>.55 else ' '
             chars.append(char)
-            colors.append('#%02x%02x%02x' % (int(20+darkness*28),int(110+darkness*145),int(66+darkness*85)))
+            light = (1-darkness)**.8
+            colors.append('#%02x%02x%02x' % (int(44+light*173),int(91+light*149),int(67+light*155)))
         lines.append(''.join(chars)); tones.append(colors)
     return lines, tones
 
 def svg_text(x,y,text,size=18,color=WHITE,weight='400'):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}">{escape(text)}</text>'
 
-def ascii_svg(lines,tones,x,y,cell=4.5,line=8):
+def ascii_svg(lines,tones,x,y,cell=4,line=8):
     parts=[]
     for row, chars in enumerate(lines):
         # Explicit positions keep character cells stable across fallback fonts.
@@ -83,12 +85,12 @@ def main():
         svg_text(46,620,'Kelibia, Tunisia  ·  AWS / Azure / OpenStack',15,MUTED),
         '<rect x="725" y="104" width="432" height="562" rx="12" fill="#0B120E" stroke="#26382D"/>',
         svg_text(747,137,'$ render portrait --ascii',13,MUTED),
-        ascii_svg(lines,tones,743,164),svg_text(747,650,'ASSIL BELHOUENE  /  ASCII EDITION',12,GREEN),
+        ascii_svg(lines,tones,765,164),svg_text(747,650,'ASSIL BELHOUENE  /  ASCII EDITION',12,GREEN),
         '</g></svg>']
     (assets/'hero.svg').write_text('\n'.join(parts),encoding='utf-8')
     parts=shell(432,650,'Assil Belhouene — ASCII portrait','A portrait built entirely from ASCII characters, converted from the supplied photo.')
     parts += [svg_text(22,38,'$ whoami',16,GREEN),svg_text(22,72,'Assil Belhouene',24,WHITE,'700'),
-        svg_text(22,105,'Cloud / DevOps / Full-Stack',14,MUTED),ascii_svg(lines,tones,18,148),
+        svg_text(22,105,'Cloud / DevOps / Full-Stack',14,MUTED),ascii_svg(lines,tones,40,148),
         svg_text(22,615,'I engineer systems that keep shipping.',13,GREEN),'</g></svg>']
     (assets/'hero-mobile.svg').write_text('\n'.join(parts),encoding='utf-8')
     if args.preview_dir:
