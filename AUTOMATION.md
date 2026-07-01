@@ -26,7 +26,7 @@ These are GitHub contribution counts, subject to eligibility, attribution, index
 
 Missing/expired credentials, invalid API responses or snake generation failure stop the workflow before publishing. Existing artwork remains intact. Publication stages the complete output together, uses an ordinary push, and commits only changed files. Concurrent runs are serialized; a conflicting asset-branch push fails rather than overwriting it. No pull-request trigger receives the secret.
 
-Dependencies are pinned: Python 3.12.14, actions/checkout `11d5960a326750d5838078e36cf38b85af677262`, actions/setup-python `a26af69be951a213d495a4c3e4e4022e16d87065`, and [Platane/snk](https://github.com/Platane/snk/tree/d8f6715049803e982ee5ff501b6b9b7d5deeb09b) `d8f6715049803e982ee5ff501b6b9b7d5deeb09b`. Review upstream changes before updating pins. The snake action receives the read-only activity token, never the write token. The publisher disables checkout credential persistence and supplies its write credential only to Git over HTTPS.
+Dependencies are pinned: Python 3.12.14, actions/checkout `d23441a48e516b6c34aea4fa41551a30e30af803`, actions/setup-python `ece7cb06caefa5fff74198d8649806c4678c61a1`, and [Platane/snk](https://github.com/Platane/snk/tree/d8f6715049803e982ee5ff501b6b9b7d5deeb09b) `d8f6715049803e982ee5ff501b6b9b7d5deeb09b`. Review upstream changes before updating pins. The snake action receives the read-only activity token, never the write token. The publisher disables checkout credential persistence and supplies its write credential only to Git over HTTPS.
 
 ## Local checks
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 # Separate token and credential scope: only this step gets repository write access.
-for asset in stats.svg stats-mobile.svg contribution-snake.svg contribution-snake-dark.svg activity.md; do
+for asset in activity-cards.svg activity-cards-mobile.svg activity-snake.svg activity-snake-dark.svg activity.md; do
   test -s "generated/$asset"
 done
 export GIT_CONFIG_COUNT=1
@@ -13,7 +13,7 @@ cp generated/*.svg generated/activity.md published/
 cd published
 git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-git add stats.svg stats-mobile.svg contribution-snake.svg contribution-snake-dark.svg activity.md
+git add activity-cards.svg activity-cards-mobile.svg activity-snake.svg activity-snake-dark.svg activity.md
 if git diff --cached --quiet; then
   echo 'Activity assets are unchanged.'
 else

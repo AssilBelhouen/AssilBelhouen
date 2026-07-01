@@ -119,13 +119,13 @@ Have a cloud, DevOps, platform, or full-stack engineering problem to work throug
 ### `06 / activity stream`
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/contribution-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/contribution-snake.svg" width="100%" alt="Animated green snake tracing my actual GitHub contribution calendar for the past year.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-snake.svg" width="100%" alt="Animated green snake tracing my actual GitHub contribution calendar for the past year.">
 </picture>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/stats-mobile.svg">
-  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/stats.svg" width="100%" alt="GitHub activity totals for the past year: contributions, API-visible commits, pull requests and reviews. Includes private contribution aggregates; period and last refresh are printed in the card.">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-cards-mobile.svg">
+  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-cards.svg" width="100%" alt="GitHub activity totals for the past year: contributions, API-visible commits, pull requests and reviews. Includes private contribution aggregates; period and last refresh are printed in the card.">
 </picture>
 
 <sub>Daily refresh at 06:17 Africa/Lagos. Private activity is aggregate-only; GitHub may hide its breakdown by activity type. [Data and automation notes](AUTOMATION.md) · [Accessible activity totals](https://github.com/AssilBelhouen/AssilBelhouen/blob/profile-assets/activity.md)</sub>

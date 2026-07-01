@@ -111,7 +111,7 @@ def svg(counts, start, end, mobile=False):
 
 def render(directory, counts, start, end):
     directory.mkdir(parents=True, exist_ok=True)
-    outputs = {'stats.svg': svg(counts,start,end), 'stats-mobile.svg': svg(counts,start,end,True)}
+    outputs = {'activity-cards.svg': svg(counts,start,end), 'activity-cards-mobile.svg': svg(counts,start,end,True)}
     if counts is None:
         text = '# Activity totals\n\nAwaiting the PROFILE_STATS_TOKEN Actions secret. No live counts have been published.\n'
     else:
