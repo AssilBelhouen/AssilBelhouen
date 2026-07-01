@@ -110,13 +110,7 @@ Java · Bash · PowerShell · Spring Cloud · Node.js · MongoDB · Keycloak
 
 Arabic · English · French
 
-### `05 / ping assil`
-
-Have a cloud, DevOps, platform, or full-stack engineering problem to work through? **[Let's build reliable systems.](mailto:assil.belhouene@gmail.com)**
-
-[assil.belhouene@gmail.com](mailto:assil.belhouene@gmail.com) · [LinkedIn](https://www.linkedin.com/in/assil-belhouene/) · [assil.cloud / portfolio](https://assil-belhouene-portfolio.vercel.app/)
-
-### `06 / activity stream`
+### `05 / activity stream`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-snake-dark.svg">
@@ -127,8 +121,6 @@ Have a cloud, DevOps, platform, or full-stack engineering problem to work throug
   <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-cards-mobile.svg">
   <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/profile-assets/activity-cards.svg" width="100%" alt="GitHub activity totals for the past year: contributions, API-visible commits, pull requests and reviews. Includes private contribution aggregates; period and last refresh are printed in the card.">
 </picture>
-
-<sub>Daily refresh at 06:17 Africa/Lagos. Private activity is aggregate-only; GitHub may hide its breakdown by activity type. [Data and automation notes](AUTOMATION.md) · [Accessible activity totals](https://github.com/AssilBelhouen/AssilBelhouen/blob/profile-assets/activity.md)</sub>
 
 ---
 
