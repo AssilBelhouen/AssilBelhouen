@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg?v=sketch1">
-  <img src="assets/hero.svg?v=sketch1" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. ASCII line-art portrait with glasses and a polo collar beside a neofetch-style engineering summary.">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/086c27c20fca0085ef409f0d39ca5755bfd825af/assets/hero-mobile.svg">
+  <img src="https://raw.githubusercontent.com/AssilBelhouen/AssilBelhouen/086c27c20fca0085ef409f0d39ca5755bfd825af/assets/hero.svg" width="1100" alt="Hi, I'm Assil Belhouene. Cloud, DevOps and Full-Stack Engineer. I engineer systems that keep shipping. ASCII line-art portrait with glasses and a polo collar beside a neofetch-style engineering summary.">
 </picture>
 
 <p align="center">
