@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="460" viewBox="0 0 600 460" role="img" aria-labelledby="title desc">
 <title id="title">Assil GitHub activity, past year</title>
-<desc id="desc">Private activity is aggregate-only. Typed totals include only activity the API classifies. 2025-10-19 to 2026-10-19 UTC. LAST SYNC / 2026-10-19T10:46:12Z</desc>
+<desc id="desc">Private activity is aggregate-only. Typed totals include only activity the API classifies. 2025-10-20 to 2026-10-20 UTC. LAST SYNC / 2026-10-20T10:03:34Z</desc>
 <style>@keyframes breathe{0%,100%{opacity:.3}50%{opacity:.9}}.signal{animation:breathe 4s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
 <rect width="600" height="460" rx="18" fill="#070A08"/>
 <rect x=".5" y=".5" width="599" height="459" rx="18" fill="none" stroke="#253B2F"/>
 <circle class="signal" cx="28" cy="29" r="4" fill="#00FF88"/>
 <g font-family="monospace">
 <text x="42" y="34" fill="#00FF88" font-size="14">ACTIVITY / PAST YEAR</text>
-<text x="24" y="61" fill="#A6B7AC" font-size="13">2025-10-19 to 2026-10-19 UTC</text>
+<text x="24" y="61" fill="#A6B7AC" font-size="13">2025-10-20 to 2026-10-20 UTC</text>
 <rect x="24" y="83" width="262" height="113" rx="10" fill="#0D1410" stroke="#253B2F"/>
 <text x="42" y="110" fill="#A6B7AC" font-size="12">CONTRIBUTIONS</text>
 <text x="42" y="165" fill="#F5FFF8" font-size="43">481</text>
@@ -21,6 +21,6 @@
 <text x="322" y="243" fill="#A6B7AC" font-size="12">REVIEWS*</text>
 <text x="322" y="298" fill="#F5FFF8" font-size="43">0</text>
 <text x="24" y="370" fill="#A6B7AC" font-size="12">* API-classified totals; restricted breakdown may be hidden.</text>
-<text x="24" y="393" fill="#A6B7AC" font-size="12">LAST SYNC / 2026-10-19T10:46:12Z</text>
+<text x="24" y="393" fill="#A6B7AC" font-size="12">LAST SYNC / 2026-10-20T10:03:34Z</text>
 <text x="24" y="415" fill="#A6B7AC" font-size="12">Unclassified restricted contributions: 0</text>
 </g></svg>
