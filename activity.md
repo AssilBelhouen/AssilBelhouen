@@ -1,6 +1,6 @@
 # Activity totals
 
-Period: 2025-11-19 to 2026-11-19 UTC. Last successful refresh: 2026-11-19T14:25:19Z.
+Period: 2025-11-20 to 2026-11-20 UTC. Last successful refresh: 2026-11-20T13:59:58Z.
 
 | Metric | Count |
 |---|---:|
